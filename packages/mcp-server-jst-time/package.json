@@ -1,0 +1,26 @@
+{
+  "name": "mcp-server-jst-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fix": "biome check --write --unsafe .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "@modelcontextprotocol/sdk": "^1.1.1",
+    "eventsource": "^3.0.2",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.7.3"
+  },
+  "type": "module"
+}
