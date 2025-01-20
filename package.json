@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fix": "biome check --write --unsafe .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx src/server.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +17,10 @@
     "@modelcontextprotocol/sdk": "^1.1.1",
     "eventsource": "^3.0.2",
     "express": "^4.21.2"
-  }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.7.3"
+  },
+  "type": "module"
 }
