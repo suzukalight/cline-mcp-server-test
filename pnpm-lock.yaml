@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@biomejs/biome':
+        specifier: ^1.9.4
+        version: 1.9.4
       turbo:
         specifier: latest
         version: 2.3.3
@@ -27,9 +30,6 @@ importers:
         specifier: ^4.21.2
         version: 4.21.2
     devDependencies:
-      '@biomejs/biome':
-        specifier: ^1.9.4
-        version: 1.9.4
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
